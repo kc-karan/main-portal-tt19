@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.typing-logo{
+    font-size: 3em;
+}
+
+@media(min-width: 500px){
+    img {
+        width: 40%;
+    }
+    .container {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        align-content: flex-end;
+    }
+}
